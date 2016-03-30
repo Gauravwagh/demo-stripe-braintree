@@ -1,0 +1,17 @@
+body {background: url(images/admin/bg.jpg) repeat-x;margin: 0px;padding: 0px;color:#757887;}
+h2{font-family: MyriadProRegular, Helvetica, sans-serif; font-weight:normal; font-size: 30px;color: #313035;line-height: 36px;letter-spacing: -1px;}
+.clr{clear:both; height:0; line-height:0;}
+.title {display: block;margin: 0px;padding: 10px 10px 10px 20px;background-color: #2D78D2;color: #F0F0F0;font-family: MyriadProRegular, Helvetica, sans-serif;font-size: 24px;-moz-border-radius: 3px 3px 0 0;-webkit-border-radius: 3px 3px 0 0;border-radius: 3px 3px 0 0;font-style: italic;margin-bottom:18px}
+#upperBody .span12{display: block;float: left;margin: 18px 0 8px 0;padding-bottom:12px;background-color: #F6F6F6;width: 620px;}
+#upperBody .span8{font-size:16px;}
+#upperBody .span4{padding-right:18px;}
+#upperBody ul {margin: 0;padding: 0;list-style: none;list-style-image: url(images/admin/check.png);list-style-position: inside;line-height: 36px;margin-left: 20px;}
+#upperBody li {padding: 0 0 0 0;margin: 0;font-family: MyriadProRegular, Helvetica, sans-serif;color: #757887;font-size: 18px;font-style: italic;}
+#wrapper {width: 960px;margin: 0 auto; padding-top: 38px;}
+#header .span4 {padding-top: 8px;}
+#header{border-bottom:1px solid #ddd}
+#header .span8{text-align:right; min-height:75px; padding-top:28px;}
+#header, #footer{ margin:0 auto; clear: both; background: #eee;}
+#header .row-fluid , #footer .row-fluid {width: 960px;margin: 0 auto;}
+#footer .span12 .span8{margin-left:0;}
+.btn.btn-primary span,.btn.btn-large span{font-size:31px; padding:8px 28px; line-height:1.5em}

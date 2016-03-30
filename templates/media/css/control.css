@@ -1,0 +1,123 @@
+
+
+/* ========Home Page=========== */
+/* ------------------------------------------------------------------------------------------------------------ */
+
+body{background:  url("images/bg.png") repeat-x 0 0 #fff; color:#003580;font: small/1.2 Arial,Helvetica,sans-serif;}
+
+a:link{color:#0896FF}
+a:hover{color:#FEBA02}
+a:visited{color:#537CB4}
+.rht{float:right;}
+
+#header{height:83px;}
+#header .span5{padding-top:18px;}
+#topNav{padding-top:11px; padding-left:100px}
+#topNav li{border-left:1px dotted #0896FF; padding:0 6px;}
+.clr{clear:both; height:0; line-height:0;}
+.dropdown-toggle:hover{background:#003580}
+#header .nav {margin-bottom: 13px;}
+
+#mainBody{}
+#search{background:#F89406; border-radius: 8px; padding:18px; margin-bottom:18px; min-height:150px; color:#fff;}
+#search h3 {font-size: 26px;font-weight: normal;margin-bottom: 8px;}
+#featuerHotel, #popularDestination{padding-bottom:18px;}
+#popularDestination h2{padding-bottom:18px; font-size:26px; font-weight:normal;}
+
+
+
+.recentViewBlk, .highlited{background:#E6EDF6; border-radius: 8px; pading:18px; margin-bottom:8px; min-height:20px;}
+.highlited a{ display:block;  border-radius: 8px; padding:10px 30px 10px 60px; min-height:20px; text-decoration:none;}
+.highlited:hover{background:#003580;}
+#bredcrumb{padding:8px 0; font-weight:bold;}
+
+.highlited a span:first-child{color:#003580; font-size:20px;}
+.highlited a span{color:#779BCA; font-size:15px; font-weight:bold; display:block; line-height:1.5em}
+.highlited:hover span:first-child{color:#FEBA02;}
+.highlited:hover span{color:#fff; }
+
+.mobile{background:  url("images/mobile.png") no-repeat 8px 4px}	
+.subscriber{background:  url("images/subscriber.png") no-repeat 8px center}
+
+	
+.subscriber{background:  url("images/subscriber.png") no-repeat 8px center}	
+
+
+.info{background:  url("images/icon/info.png") no-repeat 8px center}	
+.map{background:  url("images/icon/geographie.png") no-repeat 8px center}	
+.visa{background:  url("images/icon/visa.png") no-repeat 8px center}	
+.cityMap{background:  url("images/icon/city-map.png") no-repeat 8px center}	
+
+.attraction{background:  url("images/icon/attractions.png") no-repeat 8px center}	
+.activities{background:  url("images/icon/activites.png") no-repeat 8px center}	
+.festiva{background:  url("images/icon/festivals.png") no-repeat 8px center}	
+.exposition{background:  url("images/icon/expositions.png") no-repeat 8px center}
+	
+.cinema{background:  url("images/icon/cinemas.png") no-repeat 8px center}	
+.restaurent{background:  url("images/icon/restaurants.png") no-repeat 8px center}	
+.nightLife{background:  url("images/icon/nightlife.png") no-repeat 8px center}	
+.shopping{background:  url("images/icon/shopping.png") no-repeat 8px center}	
+.news{background:  url("images/icon/news.png") no-repeat 8px center}	
+.ecinomie{background:  url("images/icon/economie.png") no-repeat 8px center}	
+.historie{background:  url("images/icon/histoire.png") no-repeat 8px center}	
+
+#latMenu ul, #quickMenu ul{list-style:none; padding:0; margin:0}
+#quickMenu ul li{ width:50%; float:left;}
+#latMenu ul li{ width:25%; float:left;}
+#latMenu ul li a, #quickMenu ul li a{background:#E6EDF6; font-size:20px; border:2px solid #fff; border-radius:6px; color:#003580; display:block; }
+#latMenu ul li img, #quickMenu ul li img{max-height:47px; max-width:47px; padding:8px; margin-right:6px; }
+#latMenu ul li:hover, #quickMenu ul li:hover{ color:#FEBA02}
+#latMenu ul li:hover a, #quickMenu ul li:hover a{background:#003580; color:#fff; border:2px solid #fff}
+#latMenu ul li:hover a img, #quickMenu ul li:hover img{background:#FEBA02; border-radius:4px 0 0 4px;}
+
+
+.recentViewBlk{padding:0 13px 13px;}
+.recentView{padding:8px 0; border-top: 1px dotted #CCC; line-height:1.2em;}
+.recentViewBlk h3 {font-size: 26px;font-weight: normal;margin-bottom: 8px;text-shadow: 1px 1px 0 white;font-size: 21px;padding: 12px 18px 0;}
+.recentViewBlk .recentView img {float: left;border-radius: 6px;margin-right: 18px; height:60px; width:60px;}
+.recentView img {float: left;border-radius: 4px;margin-right: 13px; height:40px; width:40px}
+.recentView:hover{background:#E6EDF6;}
+.recentView h4{font-size:21px; font-weight:normal;}
+
+.recentView h4 a:link{color:#0896FF}
+.recentView h4 a:visited{color:#537CB4}
+.recentView h4 a:hover{color:#FEBA02}
+
+.recentView p{font-size:11px; line-height:1.2em;}
+.bInfo{color:#690}
+.hInfo{color:#000;}
+.viewMore{padding:8px; font-size:14px; font-weight:bold; text-align:right;}
+.viewMore a:link{color:#0896FF; text-decoration:underline;}
+.viewMore a:visited{color:#537CB4}
+.viewMore a:hover{color:#FEBA02}
+#compair {padding: 18px;background: white; color: #0896FF;text-align: center;font-size: 20px; font-weight:bold; border-bottom: 1px dotted #DDD;}
+#compair a{text-decoration:underline; color: #0896FF;}
+#compair a:hover{ color: #FEBA02;}
+
+#logo{font-size:31px;}
+#header a, #logo a{color:#fff; text-decoration:none;}
+#header a:hover{color:#FEBA02;}
+#logo a span{color:#00abee;  }
+#loginLinkBlk{color: #fff}
+#loginLinkBlk a{color:#FEBA02;}
+.popularH{display: block;position: relative;height: 272px;background-repeat: no-repeat;background-position: 50% 0;margin: 0 0 15px 0;-moz-box-shadow: none;-webkit-box-shadow: none;box-shadow: none;text-decoration: none;}
+
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
+/* ========Feature Hotels=========== */
+/* ------------------------------------------------------------------------------------------------------------ */
+.hotelClip {padding: 10px;margin: 10px;float: left;display: inline;max-width: 80%;background: black;background: rgba(0, 0, 0, 0.6);}
+.hotelClip p {position: static;font-size: 4em; color:#fff; line-height: .833;font-weight: normal;text-shadow: 1px 1px 1px black;}
+.hCount {color: white;font-weight: bold;font-size: 24px;margin: 5px 0 0 0;text-shadow: 1px 1px 1px black;}
+.biger{text-align: right;white-space: nowrap;font-size: 18px;color:#09F;}
+#featuerHotel h2{padding-bottom:18px; font-size:26px; font-weight:normal;}
+#featuerHotel h4 {font-size: 21px;font-weight: normal;}
+#featuerHotel .span6 , #featuerHotel .span2{font-size: 0.9em;}
+#featuerHotel .span3 img{left:4px; position:relative; border-radius:6px; height:128px; width:128px;}
+#featuerHotel .clr{border-bottom:1px dotted #ddd; padding-top:8px; margin-bottom:8px;}
+.txtRht{text-align:right}
+.txtRht a{text-decoration:underline}
+#header .dropdown-menu a {color: #003580}
+#header .dropdown-menu li {border:0; color: #003580}
+/* ------------------------------------------------------------------------------------------------------------- */

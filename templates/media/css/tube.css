@@ -1,0 +1,14 @@
+body {background: url(images/tube/bg.png) repeat;margin: 0px;padding: 0px;color:#333333;}
+.clr{clear:both; height:0; line-height:0;}
+.container{width:970px}
+#header{padding-top:8px;}
+#header .span5{margin-top:5px;}
+#header .span4{color:#ccc; margin-top:5px;line-height:33px; margin-left:0}
+#header .span4 a{color:#111; padding:0 8px}
+#header .span1 {margin-left: 0;width: 10%;margin-top: 8px;line-height: 33px;color: black;}
+#logo ,#logo a,#logo a span{font-size:21px; font-weight: normal; text-decoration:none; font-family:Bernard MT Condensed}
+#logo a{color:#000; }
+#logo a span{color:#fff; padding:9px 4px; border-radius:8px; border:1px silid #ea0000; background:#d91313; box-shadow:1px 0 0 #444;}
+#header .span1 a {border: 1px solid transparent;display: block;margin: 0;color: black;padding: 0 2px;line-height: 29px;height: 29px;overflow:hidden; font-size: 11px;}
+#header .span1 a:hover{border:1px solid #aaa; text-decoration:none; border-radius:2px; }
+#header .span1 a img{margin:-6px 0 0}

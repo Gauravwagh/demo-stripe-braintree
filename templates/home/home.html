@@ -1,0 +1,78 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+
+    <div class="jumbotron">
+    <p align="center">Use <strong>4242424242424242</strong> as demo card.</p>
+        <div class="row">
+            <div class="col-md-6" align="center">
+                <h4>Braintree Payment Gateway</h4>
+
+                <p ></p>
+
+                <p >
+                    <button class="btn btn-lg btn-info hideeeee"  role="button">Braintree</button>
+                </p>
+            </div>
+            <div class="col-md-6" align="center">
+                <h4>Stripe Payment Gateway</h4>
+
+                <p ></p>
+
+                <p>
+{#                    <button class="btn btn-lg btn-danger" role="button">Stripe</button>#}
+                    <form action="" method="POST">
+                      <script
+                        src="https://checkout.stripe.com/checkout.js" class="stripe-button btn-danger"
+                        data-key="pk_test_eVQIbobjI0DDN6Vk66F1k0H8"
+                        data-amount="2000"
+                        data-name="Demo Site"
+                        data-description="Consultadd"
+                        data-image="/media/img/128x128.png"
+                        data-locale="auto">
+                      </script>
+                    </form>
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <div class="get_none" style="display: none;">
+        <form id='checkoutForm' method='POST' action="/upgrade/">{% csrf_token %}
+
+            <div id='checkout'></div>
+
+            <input name="token" type="hidden" value="{{ client_token }}"/>
+            <!-- disable this when clicked -->
+            <button type="button" class="btn modal-action modal-close right margin-class canceleledd"
+                    style="display:none;background-color:lightcoral;color: #000000; float: right;">Cancel
+            </button>
+            <input id='submitPayment' type='submit' data-loading-text="Completing..." class='btn right margin-class'
+                   value='Pay $200' autocomplete="off"
+                   style="background-color:lightblue;color: #000000; float: right;"/>
+        </form>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            braintree.setup("{{ client_token }}", "dropin", {
+                container: "checkout",
+                form: "checkoutForm"
+            });
+
+        });
+
+    </script>
+
+{% endblock %}

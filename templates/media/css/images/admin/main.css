@@ -1,0 +1,601 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+	font-family: 'MyriadProRegular';
+	src: url('myriadpro-regular-webfont.eot');
+	src: local('☺'), url('myriadpro-regular-webfont.woff') format('woff'), url('myriadpro-regular-webfont.ttf') format('truetype'), url('myriadpro-regular-webfont.svg#webfonto70rnzVV') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	}
+
+body {
+	background-image:url(../img/page_bground.jpg);
+	margin: 0px;
+	padding: 0px;
+	background-repeat:repeat-x;
+	}
+	
+p {
+	font-family:MyriadProRegular, Helvetica, sans-serif;
+	font-size:18px;
+	color: #757887;
+	line-height: 24px;
+	padding-bottom: 15px;
+	letter-spacing:-.05em;
+	}
+	
+h1 {
+	font-family:MyriadProRegular, Helvetica, sans-serif;
+	font-size:30px;
+	color: #313035;
+	line-height: 36px;
+	letter-spacing:-1px;
+	}
+	
+.header_title {
+	font-family:MyriadProRegular, Helvetica, sans-serif;
+	font-size:30px;
+	color: #313035;
+	line-height: 36px;
+	letter-spacing:-1px;
+	}
+
+h2 {
+	font-family:MyriadProRegular, Helvetica, sans-serif;
+	font-size:24px;
+	color: #333333;
+	text-shadow:#cccccc 1px 1px 0px;
+	letter-spacing:-2px;
+	}
+
+h3 {
+	font-family:MyriadProRegular, Helvetica, sans-serif;
+	font-size:18px;
+	color: #8f8f8f;
+	line-height: 50px;
+	letter-spacing:-1px;
+	}
+	
+blockquote {
+	background-image:url(../img/blockquote.png);
+	background-repeat:no-repeat;
+	width: 439px;
+	height: 108px;
+	margin: 0;
+	padding: 20px 10px 10px 90px;
+	font-family:MyriadProRegular, Helvetica, sans-serif;
+	font-size:12px;
+	color: #3b3b3b;
+	font-style:italic;
+	}
+	
+.quote_from {
+	font-family:MyriadProRegular, Helvetica, sans-serif;
+	font-size:12px;
+	color: #757887;
+	float: right;
+	margin: 20px 20px 0 0;
+	text-align:right;
+	}
+	
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+	}
+	
+#top_logo {
+	width: 520px;
+	margin: 12px 0 0 0;
+	float: left;
+	}
+	
+a img {
+	border: none;
+	}
+	
+#top_social {
+	float: right;
+	width: 160px;
+	margin: 25px 0 0 0;
+	}
+	
+#top_social ul.social li {
+	display: inline;
+	margin: 0 5px 0 0;
+	padding:2px 0 0 0;
+	}
+	
+#social {
+	padding:20px 0 20px 0;
+	}
+	
+#social img, img.a {
+	padding:2px 0 0 0;
+	}
+	
+#social a:hover {
+	filter: gray;
+	}
+	
+#header_area {
+	width: 960px;
+	min-height: 418px;
+	clear: both;
+	padding-top: 45px;
+	}
+	
+#header_left {
+	float: left;
+	width: 630px;
+	}
+	
+#header_right {
+	float: right;
+	width: 300px;
+	text-align: right;
+	}
+	
+#cta_area {
+	width: 620px;
+	color: #fff;
+	}
+	
+.cta_left {
+	float: left;
+	width: 360px;
+	margin-top: 20px;
+	}
+	
+.cta_left ul {
+	margin:0;
+	padding: 0;
+	list-style:none;
+	list-style-image:url(../img/check.png);
+	list-style-position: inside;
+	line-height: 36px;
+	margin-left: 20px;
+	}
+	
+.cta_left li {
+	padding: 0 0 0 0;
+	margin:0;
+	font-family:MyriadProRegular, Helvetica, sans-serif;
+	color: #757887;
+	font-size:18px;
+	font-style:italic;
+	}
+	
+.cta_right {
+	float: left;
+	width: 240px;
+	text-align: right;
+	}
+	
+ul {
+	margin:0;
+	padding: 0;
+	list-style:none;
+	list-style-position: inside;
+	line-height: 1.8em;
+	list-style-type:disc;
+	}
+	
+li {
+	padding: 0 0 0 0;
+	margin:0;
+	font-family:MyriadProRegular, Helvetica, sans-serif;
+	font-size:12px;
+	}
+	
+.clear {
+	margin: 0 0 40px 0;
+	}
+	
+#footer_wrapper {
+	clear: both;
+	background-image:url(../img/footer_bground.jpg);
+	background-repeat:repeat-x;
+	min-height:250px;
+	margin-top: 40px;
+	background-color: #ededed;
+	}
+	
+#footer_container {
+	margin: 0 auto;
+	width: 960px;
+	}
+	
+#footer_left {
+	float: left;
+	width: 500px;
+	margin-top: 70px;
+	}
+	
+#footer_left2 {
+	float: left;
+	width: 200px;
+	margin-top: 70px;
+	margin-left: 60px;
+	}
+	
+#footer_left2 ul {
+	display: inline;
+	margin: 0 5px 0 0;
+	padding:20px 0 0 0;
+	}
+	
+.social2 li {
+	display: inline;
+	margin: 0 5px 0 0;
+	padding:20px 0 0 0;
+	}
+	
+#footer_left2 li {
+	display: inline;
+	margin: 0 5px 0 0;
+	padding:20px 0 0 0;
+	}
+	
+#footer_right {
+	float: right;
+	width: 200px;
+	margin-top: 90px;
+	text-align:right;
+	font-family:MyriadProRegular, Helvetica, sans-serif;
+	font-size:11px;
+	color: #737373;
+	}
+	
+#footer_bottom {
+	margin: 0 auto;
+	width: 960px;
+}
+	
+.footer_heading {
+	font-family:MyriadProRegular, Helvetica, sans-serif;
+	font-size:20px;
+	color: #808080;
+	letter-spacing:-1px;
+	padding-bottom: 20px;
+	}
+	
+.copyright {
+	float:left;
+	clear: both;
+	width: 520px;
+	font-family:Helvetica, sans-serif;
+	font-size:11px;
+	color: #737373;
+	padding-top: 20px;
+	border-top: 1px solid #ffffff;
+	}
+	
+.copyright a {
+	font-family:MyriadProRegular, Helvetica, sans-serif;
+	font-size:11px;
+	color: #737373;
+	text-decoration:underline;
+	}
+
+	
+.highlight_box1 {
+	display: block;
+	float: left;
+	margin: 9px 0 0 0;
+	background-color: #f6f6f6;
+	width: 620px;
+}
+
+.highlight_box1 p {
+	display: block;
+	color:#757887;
+	font-family:MyriadProRegular, Helvetica, sans-serif;
+	font-size:14px;
+	padding: 10px 10px 10px 20px;
+	}
+	
+.highlight_box1_title {
+	display: block;
+	margin: 0px;
+	padding: 10px 10px 10px 20px;
+	background-color: #2d78d2;
+	color:#f0f0f0;
+	font-family:MyriadProRegular, Helvetica, sans-serif;
+	font-size:24px;
+	-moz-border-radius: 3px 3px 0 0;
+	-webkit-border-radius: 3px 3px 0 0;
+	border-radius: 3px 3px 0 0;
+	font-style:italic;
+	}
+	
+.full_width {
+	width: 960px;
+	text-align:center;
+	clear: both;
+	padding-top: 30px;
+	}
+	
+.quote_header {
+	color: #2d78d2;
+	font-family:MyriadProRegular, Helvetica, sans-serif;
+	font-size:30px;
+	}
+	
+
+
+/***********************************************************************************************************************
+ STYLES FOR TWITTER FEED
+************************************************************************************************************************/
+
+.tweet, .query {
+  font-family:MyriadProRegular, Helvetica, sans-serif;
+	font-size:12px;
+	color:#333333;
+	line-height:1.5em; }
+  
+.tweet .tweet_list, .query .tweet_list {
+    list-style-type: none;
+	}
+	
+.tweet .tweet_list .awesome, .tweet .tweet_list .epic, .query .tweet_list .awesome, .query .tweet_list .epic {
+      text-transform: uppercase; }
+	  
+.tweet .tweet_list li, .query .tweet_list li {
+      overflow-y: auto;
+      overflow-x: hidden;
+      padding: 0;
+	  font-family:MyriadProRegular, Helvetica, sans-serif;
+	font-size:12px;
+	color:#737373;
+	border-bottom: none;
+	border-top: none;
+list-style:none;
+margin-bottom:10px;
+padding-top:0px;
+padding-bottom:10px;}
+	  
+.tweet .tweet_list li a, .query .tweet_list li a {
+        color: #2d78d2; }
+	  
+.tweet .tweet_list .tweet_avatar, .query .tweet_list .tweet_avatar {
+      padding-right: .5em;
+      float: left; }
+	  
+.tweet .tweet_list .tweet_avatar img, .query .tweet_list .tweet_avatar img {
+        vertical-align: middle;
+		padding:0 10px 0 0;}
+		
+.tweet .tweet_first {
+	padding: 0;}
+	
+.tweet-button_container {
+	margin-bottom: 20px;}
+	
+
+/***********************************************************************************************************************
+ STYLES FOR Tipsy Rollovers
+************************************************************************************************************************/
+
+.tipsy { padding: 5px; font-size: 11px; opacity: 1.0; filter: alpha(opacity=100); background-repeat: no-repeat;  background-image: url(../img/tipsy.gif); margin-top: 10px; 	color:#1F242F; font-family:MyriadProRegular, Helvetica, sans-serif; }
+  .tipsy-inner { padding: 5px 8px 4px 8px; background-color: #2d78d2; color: white; max-width: 200px; text-align: center; }
+  .tipsy-inner { -moz-border-radius:3px; -webkit-border-radius:3px; }
+  .tipsy-north { background-position: top center; }
+  .tipsy-south { background-position: bottom center;}
+  .tipsy-east { background-position: right center; }
+  .tipsy-west { background-position: left center; }
+
+/***********************************************************************************************************************
+ STYLES FOR TABBED AREA
+************************************************************************************************************************/
+
+
+ul.tabs {
+	margin: 40px 0 0 0;
+	padding: 0;
+	float: left;
+	list-style: none;
+	height: 32px; /*--Set height of tabs--*/
+	width: 100%;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	border-radius: 5px 5px 0 0;
+	font-family:MyriadProRegular, Helvetica, sans-serif;
+	font-size:20px;
+}
+ul.tabs li {
+	float: left;
+	margin: 0;
+	padding: .05em;
+	height: 31px; /*--Subtract 1px from the height of the unordered list--*/
+	line-height: 31px; /*--Vertically aligns the text within the tab--*/
+	border-left: none;
+	margin-bottom: -1px; /*--Pull the list item down 1px--*/
+	overflow: hidden;
+	position: relative;
+	background: #ededed;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	border-radius: 5px 5px 0 0;
+	margin-right: 1px;
+}
+
+ul.tabs li a {
+	text-decoration: none;
+	color: #000;
+	display: block;
+	font-size: 1.2em;
+	padding: 1px 30px;
+	outline: none;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	border-radius: 5px 5px 0 0;
+	font-family:MyriadProRegular, Helvetica, sans-serif;
+	font-size:18px;
+}
+ul.tabs li a:hover {
+	background: #2d78d2;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	border-radius: 5px 5px 0 0;
+	color: #fff;
+}
+
+
+html ul.tabs li.active, html ul.tabs li.active a:hover  { /*--Makes sure that the active tab does not listen to the hover properties--*/
+	background: #2d78d2;
+	color: #fff;
+}
+
+ul.tabs li.active a {
+	background: #2d78d2;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	border-radius: 5px 5px 0 0;
+	color: #fff;
+}
+
+html ul.tabs li.active a:hover {
+	background: #2d78d2;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	border-radius: 5px 5px 0 0;
+	color: #77abea;
+}
+
+.tab_container {
+	border-top: none;
+	overflow: hidden;
+	clear: both;
+	float: left; 
+	width: 100%;
+	background: #fcfcfc;
+	border: 1px solid #d8d8da;
+}
+.tab_content {
+	padding: 20px;
+	font-size: 1.2em;
+}
+
+.tab_header {
+	color: #2d78d2;
+	font-family:MyriadProRegular, Helvetica, sans-serif;
+	font-size:24px;
+	}
+	
+.tab_left {
+	width: 550px;
+	float: left;
+	}
+	
+.tab_left p {
+	color: #757887;
+	font-family:MyriadProRegular, Helvetica, sans-serif;
+	font-size:14px;
+	line-height: 20px;
+	}
+	
+.tab_right {
+	width: 350px;
+	float: right;
+	text-align: right;
+	}
+	
+.tab_right p {
+	color: #757887;
+	font-family:MyriadProRegular, Helvetica, sans-serif;
+	font-size:14px;
+	line-height: 20px;
+	}
+	
+.tab_container ul {
+	margin:0;
+	padding: 0;
+	list-style:none;
+	list-style-image:url(../img/check.png);
+	list-style-position: inside;
+	line-height: 36px;
+	margin-left: 20px;
+	}
+	
+.tab_container li {
+	padding: 0 0 0 0;
+	margin:0;
+	font-family:MyriadProRegular, Helvetica, sans-serif;
+	color: #757887;
+	font-size:18px;
+	font-style:italic;
+	}
+	
+/*
+=======================================================================
+	News Ticker
+=======================================================================
+*/
+
+.tickertitle {
+	float: left;
+	width:930px;
+	text-align:left;
+	font-family:MyriadProRegular, Helvetica, sans-serif;
+	font-size:13px;
+	color:#333333;
+	background-image:url(../img/ticker_bground.gif);
+	background-position:top left;
+	background-repeat:no-repeat;
+	min-height: 35px;
+	padding-top: 10px;
+	margin: 0px;
+	}
+	
+.quote_area {
+	background-image:url(../img/bottom_large_quote.gif);
+	background-repeat:no-repeat;
+	min-height: 140px;
+	}
+	
+.ticker {
+	}
+	
+#news_div {
+	font-family:MyriadProRegular, Helvetica, sans-serif;
+	font-size:18px;
+	color:#757887;
+	line-height: 24px;
+	width: 660px;
+	margin-left: 145px;
+	}
+	
+#news_div ul{
+	list-style:none;
+	font-family:MyriadProRegular, Helvetica, sans-serif;
+	font-size:18px;
+	color:#757887;
+	line-height: 24px;
+	}
+	
+#news_div li{
+	list-style:none;
+	font-family:MyriadProRegular, Helvetica, sans-serif;
+	font-size:18px;
+	color:#757887;
+	line-height: 24px;
+	padding-top: 30px;
+	min-height: 80px;
+	}
+	
+#news_div li a{
+	font-family:MyriadProRegular, Helvetica, sans-serif;
+	font-size:18px;
+	line-height: 24px;
+	color:#a14933;
+	text-decoration:none;
+	}
+	
+#news_div li a:hover{
+	font-family:MyriadProRegular, Helvetica, sans-serif;
+	font-size:18px;
+	color:#757887;
+	line-height: 24px;
+	text-decoration:underline;
+	}
