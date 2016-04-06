@@ -135,7 +135,7 @@ else:
         "ENGINE": "django.db.backends.postgresql_psycopg2",
         "NAME": "gateways",
         "USER": "dbuser",
-        "PASSWORD": "1188",
+        "PASSWORD": "",
         "HOST": "localhost",
         "PORT": "",
 
